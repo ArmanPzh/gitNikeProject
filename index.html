@@ -1,87 +1,109 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" type="image/png" href="/assets/images/logo.png" />
 
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="icon" type="image/png" href="/assets/images/logo.png" />
+  <title>Home</title>
+</head>
 
-    <title>Home</title>
-  </head>
+<body>
+  <header>
+    <div class="d-flex justify-content-between align-items-center px-4 px-lg-5 py-2 bg-light">
+      <a class="navbar-brand d-flex gap-2" href="#">
+        <img src="/assets/images/jordan/006-nike-logos-jordan-white.jpg" alt="Jordan" width="40" height="28">
+        <img src="/assets/images/jordan/004-nike-logos-converse-white.jpg" alt="Converse" width="40" height="28">
+      </a>
+      <ul class="nav small">
+        <li class="nav-item"><a href="#" class="nav-link text-dark py-0 border-end">Find a Store</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark py-0 border-end">Help</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark py-0 border-end">Join Us</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark py-0">Sign in</a></li>
+      </ul>
+    </div>
 
-  <body>
-    <header>
-      <nav></nav>
-    </header>
+    <div class="d-flex justify-content-between align-items-center px-4 px-lg-5 py-2">
+      <a href="#" class="navbar-brand">
+        <img src="/assets/images/jordan/nike-5.jpg" alt="Nike" width="70" height="20" class="img-fluid">
+      </a>
 
-    <section id="hero" class="position-relative w-100">
-      <img src="/assets/images/hero.avif" alt="" class="d-block w-100" />
+      <ul class="nav d-none d-md-flex fw-medium">
+        <li class="nav-item"><a href="#" class="nav-link text-dark">Men</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark">Women</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark">Kids</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark">Jordan</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark">NikeSKIMS</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark">Sport</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-dark">Sportswear</a></li>
+      </ul>
 
-      <div
-        class="hero-content position-absolute text-white d-flex flex-column gap-2"
-      >
-        <h2 class="display-4 fw-bold">
-          EVERYTHING <br />
-          LED HERE
-        </h2>
-
-        <p class="mb-0">
-          Lock in for October baseball with fan gear built for prime time
-        </p>
-
-        <button class="btn btn-light rounded-5 mt-3">Shop MLB</button>
+      <div class="d-flex align-items-center gap-3">
+        <input class="form-control form-control-sm w-auto rounded-pill border-0 bg-light" type="search" placeholder="Search" aria-label="Search">
+        <a href="#" class="text-dark fs-4"><i class="bx bx-heart"></i></a>
+        <a href="#" class="text-dark fs-4"><i class="bx bx-shopping-bag"></i></a>
       </div>
-    </section>
+    </div>
+  </header>
 
-    <section id="shop" class="container pt-5 d-flex gap-2">
-      <a href="#" class="text-decoration-none">
-        <div class="card" style="width: 18rem">
-          <img
-            src="/assets/images/jerseys.avif"
-            class="card-img-top"
-            alt="shop jerseys"
-          />
-          <div class="card-body">
-            <p class="card-text">Shop Jerseys</p>
+  <section id="hero" class="position-relative w-100 overflow-hidden">
+    <img src="/assets/images/hero.avif" alt="" class="d-block w-100 object-fit-cover" />
+
+    <div class="position-absolute start-0 bottom-0 p-4 p-md-5 text-white d-flex flex-column gap-2">
+      <h2 class="display-4 fw-bold">EVERYTHING <br />LED HERE</h2>
+      <p class="mb-0">Lock in for October baseball with fan gear built for prime time</p>
+      <button class="btn btn-light rounded-pill mt-3 align-self-start">Shop MLB</button>
+    </div>
+  </section>
+
+  <section id="shop" class="container pt-5 mb-5">
+    <div class="row g-2 justify-content-center">
+      <div class="col-12 col-md-4">
+        <a href="#" class="text-decoration-none">
+          <div class="card h-100">
+            <img src="/assets/images/jerseys.avif" class="card-img-top" alt="Shop Jerseys" />
+            <div class="card-body"><p class="card-text">Shop Jerseys</p></div>
           </div>
-        </div>
-      </a>
-
-      <a href="#" class="text-decoration-none">
-        <div class="card" style="width: 18rem">
-          <img
-            src="/assets/images/lifestyle.avif"
-            class="card-img-top"
-            alt="Shop Lifestyle"
-          />
-          <div class="card-body">
-            <p class="card-text">Shop Lifestyle</p>
+        </a>
+      </div>
+      <div class="col-12 col-md-4">
+        <a href="#" class="text-decoration-none">
+          <div class="card h-100">
+            <img src="/assets/images/lifestyle.avif" class="card-img-top" alt="Shop Lifestyle" />
+            <div class="card-body"><p class="card-text">Shop Lifestyle</p></div>
           </div>
-        </div>
-      </a>
-
-      <a href="#" class="text-decoration-none">
-        <div class="card" style="width: 18rem">
-          <img
-            src="/assets/images/braves.avif"
-            class="card-img-top"
-            alt="Shop Braves"
-          />
-          <div class="card-body">
-            <p class="card-text">Shop Braves</p>
+        </a>
+      </div>
+      <div class="col-12 col-md-4">
+        <a href="#" class="text-decoration-none">
+          <div class="card h-100">
+            <img src="/assets/images/braves.avif" class="card-img-top" alt="Shop Braves" />
+            <div class="card-body"><p class="card-text">Shop Braves</p></div>
           </div>
-        </div>
-      </a>
-    </section>
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <section id="oregon-ducks"></section>
+  <img src="/assets/images/oregon-ducks-text.png" alt="Oregon Ducks text" class="w-100 mt-5 d-block">
 
-    <footer></footer>
-  </body>
+  <section id="oregon-ducks" class="position-relative">
+    <img src="/assets/images/oregon-ducks.avif" alt="Oregon Ducks" class="w-100 d-block mt-5">
+
+    <div class="position-absolute start-0 bottom-0 p-4 p-md-5 text-white d-flex flex-column gap-2">
+      <h2 class="display-4 fw-bold">ORIGIN OF SPEED</h2>
+      <p class="mb-0">Oregon is where fast gets faster</p>
+      <div class="d-flex flex-wrap gap-2 mt-2">
+        <button class="btn btn-light rounded-pill">Shop Collection</button>
+        <button class="btn btn-light rounded-pill">Shop All NCAA</button>
+      </div>
+    </div>
+  </section>
+
+  <footer></footer>
+</body>
 </html>
