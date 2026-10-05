@@ -4,8 +4,295 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike Soccer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    
+
+<body class="bg-black">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black px-4 py-2">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center gap-2 fw-bold fst-italic fs-4" href="#" style="color:#ff0088;"><img src="nike_logo_pink.png" alt="Nike" width="42" height="35" class="object-fit-contain"> <span>nike soccer</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbar">
+            <ul class="navbar-nav gap-lg-4">
+                <li class="nav-item"><a class="nav-link fw-bold" style="color:#ff0088;" href="#">Cleats & Shoes</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" style="color:#ff0088;" href="#">Nations</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" style="color:#ff0088;" href="#">Athletes</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" style="color:#ff0088;" href="#">Clubs</a></li>
+                <li class="nav-item"><a class="nav-link fw-bold" style="color:#ff0088;" href="#">Shop All</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="position-relative overflow-hidden">
+    <video src="https://www.nike.com/ca/w/sam-kerr-4mbmv" class="w-100 vh-100 object-fit-cover" alt="Nike Soccer"></video> 
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+    </div>
+</section>
+
+<section class="bg-black text-white min-vh-100 d-flex align-items-start justify-content-center text-center py-5">
+    <div class="container pt-3">
+        <h2 class="fw-bold display-2 lh-1 mb-1">SAM KERR</h2>
+        <h2 class="fw-bold display-2 lh-1 mb-2">MERCURIAL SUPERFLY</h2>
+        <p class="fw-semibold mb-4">Become the player the world can’t stop.</p>
+        <div class="d-flex justify-content-center gap-2">
+            <button id="secondShopBtn" class="btn btn-light rounded-pill px-4">Shop</button>
+            <button id="watchBtn" class="btn btn-light rounded-pill px-4">Watch <span class="ms-1"></span></button>
+        </div>
+    </div>
+</section>
+
+<section class="bg-black text-white py-5 overflow-hidden">
+    <div class="container-fluid px-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h2 class="fw-normal mb-0">Explore the Break 'Em Pack</h2>
+            <div class="d-flex gap-2">
+                <button class="btn btn-dark rounded-circle" id="prevBtn">‹</button>
+                <button class="btn btn-secondary rounded-circle" id="nextBtn">›</button>
+            </div>
+        </div>
+
+        <div class="row g-2">
+            <div class="col-12 col-md-4">
+                <div class="bg-light">
+                    <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_743,c_limit/91169b19-acc2-4799-868c-955ea329dae9/nike-football.jpg" class="w-100" alt="Mercurial Superfly">
+                    <div class="d-flex justify-content-center gap-2 pb-4">
+                        <button class="btn btn-light border rounded-pill px-4 shop-product">Shop</button>
+                        <button class="btn btn-light border rounded-pill px-4 explore-product">Explore</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="bg-light">
+                    <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_743,c_limit/baaee610-69df-4741-a674-d7ff48447108/nike-football.jpg" class="w-100" alt="Mercurial Vapor">
+                    <div class="d-flex justify-content-center gap-2 pb-4">
+                        <button class="btn btn-light border rounded-pill px-4 shop-product">Shop</button>
+                        <button class="btn btn-light border rounded-pill px-4 explore-product">Explore</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="bg-light">
+                    <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_743,c_limit/84e58420-1c24-44b7-8957-7542c310edef/nike-football.jpg" class="w-100" alt="Tiempo">
+                    <div class="d-flex justify-content-center gap-2 pb-4">
+                        <button class="btn btn-light border rounded-pill px-4 shop-product">Shop</button>
+                        <button class="btn btn-light border rounded-pill px-4 explore-product">Explore</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Game Rules -->
+<section class="position-relative overflow-hidden vh-100">
+    <img src="" class="w-100 h-100 object-fit-cover" alt="Your Game Your Rules">
+</section>
+
+<!-- Choose Your Team -->
+<section class="bg-black text-white py-5 min-vh-100 d-flex align-items-center">
+    <div class="container text-center">
+        <p class="fw-semibold mb-2">Federations & Clubs</p>
+
+        <h2 class="fw-bold display-1 lh-1 mb-5">
+            CHOOSE YOUR<br>TEAM
+        </h2>
+
+        <div class="row row-cols-2 row-cols-md-4 row-cols-lg-7 g-4 justify-content-center">
+
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="Canada">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/ea6151dc-6465-49ac-a2ae-90c05d7304c3/image.png" class="img-fluid" style="max-width:96px;" alt="Canada">
+                    <div class="small fw-semibold">Canada</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="USA">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/e02d10f2-a88b-43a3-be10-0f1f8ad05f35/image.png" class="img-fluid" style="max-width:96px;" alt="USA">
+                    <div class="small fw-semibold">USA</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="Brazil">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/4942a4d1-6d3c-48a9-aec0-56fdd2f514ed/image.png" class="img-fluid" style="max-width:96px;" alt="Brazil">
+                    <div class="small fw-semibold">Brazil</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="England">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/8b0cf13e-0a87-4e37-8e16-1a9c476c2533/image.png" class="img-fluid" style="max-width:96px;" alt="England">
+                    <div class="small fw-semibold">England</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="France">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/fd67cdaa-daac-46ce-9f9d-62e878beb8a9/image.png" class="img-fluid" style="max-width:96px;" alt="France">
+                    <div class="small fw-semibold">France</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="Netherlands">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/d6b533a4-44c2-4d3a-9268-7c70c13929b6/image.png" class="img-fluid" style="max-width:96px;" alt="Netherlands">
+                    <div class="small fw-semibold">Netherlands</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="Norway">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/f3d36483-7707-4492-bbbd-545582fca9da/image.png" class="img-fluid" style="max-width:96px;" alt="Norway">
+                    <div class="small fw-semibold">Norway</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="Korea">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/b310117f-de55-4009-b65c-feb1ebb6232b/image.png" class="img-fluid" style="max-width:96px;" alt="Korea">
+                    <div class="small fw-semibold">Korea</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="Nigeria">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/2003b521-e109-4e0c-9684-44e92bbbbfa8/image.png" class="img-fluid" style="max-width:96px;" alt="Nigeria">
+                    <div class="small fw-semibold">Nigeria</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="Australia">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/c05addca-7b73-4f59-8b60-a2bdeccada4f/image.png" class="img-fluid" style="max-width:96px;" alt="Australia">
+                    <div class="small fw-semibold">Australia</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="Croatia">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/875301ea-c793-44eb-a431-4ffa305038e6/image.png" class="img-fluid" style="max-width:96px;" alt="Croatia">
+                    <div class="small fw-semibold">Croatia</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="Finland">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/2118eae2-d7c9-4772-a2d5-74a47bd1267a/image.png" class="img-fluid" style="max-width:96px;" alt="Finland">
+                    <div class="small fw-semibold">Finland</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="China">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/1db8bd6b-f8e2-46c1-ac42-1843d9c9f7b7/image.png" class="img-fluid" style="max-width:96px;" alt="China">
+                    <div class="small fw-semibold">China</div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn text-white team-btn w-100 p-0" data-team="Uruguay">
+                    <img src="https://static.nike.com/a/images/w_144,c_limit/124f0167-1ae3-462c-b984-3544135f666c/image.png" class="img-fluid" style="max-width:96px;" alt="Uruguay">
+                    <div class="small fw-semibold">Uruguay</div>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- More from Nike Soccer -->
+<section class="bg-black text-white py-5">
+    <div class="container-fluid px-4">
+        <h2 class="fw-normal fs-2 mb-4">More from Nike Soccer</h2>
+
+        <div class="row g-2">
+            <div class="col-12 col-md-4">
+                <button type="button" class="btn p-0 border-0 rounded-0 w-100 text-start more-soccer-card" data-category="Kids">
+                    <img src="kids.jpg" class="img-fluid w-100 d-block rounded-0" alt="Nike Soccer Kids">
+                    <span class="d-block text-white fs-2 mt-3">Kids</span>
+                </button>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <button type="button" class="btn p-0 border-0 rounded-0 w-100 text-start more-soccer-card" data-category="Equipment & Accessories">
+                    <img src="equipment.jpg" class="img-fluid w-100 d-block rounded-0" alt="Nike Soccer Equipment and Accessories">
+                    <span class="d-block text-white fs-2 mt-3">Equipment &amp; Accessories</span>
+                </button>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <button type="button" class="btn p-0 border-0 rounded-0 w-100 text-start more-soccer-card" data-category="Apparel">
+                    <img src="apparel.jpg" class="img-fluid w-100 d-block rounded-0" alt="Nike Soccer Apparel">
+                    <span class="d-block text-white fs-2 mt-3">Apparel</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Nike Footer -->
+<footer class="bg-dark text-white pt-0">
+    <!-- Nike logo area -->
+    <div class="bg-black d-flex align-items-center justify-content-center" style="height: 406px;">
+        <img src="nike_logo.png" width="120" height="100" class="img-fluid object-fit-contain" alt="Nike logo">
+    </div>
+
+    <div class="container-fluid px-4 py-5">
+        <hr class="border-secondary opacity-50 mb-5">
+
+        <div class="row g-5">
+            <div class="col-12 col-md-4 col-lg-3">
+                <h6 class="fw-bold mb-4">Resources</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">Find a Store</a></li>
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">Nike Journal</a></li>
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">Become a Member</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Feedback</a></li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+                <h6 class="fw-bold mb-4">Help</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">Get Help</a></li>
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">Order Status</a></li>
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">Shipping and Delivery</a></li>
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">Returns</a></li>
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">Payment Options</a></li>
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">Contact Us</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Reviews</a></li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+                <h6 class="fw-bold mb-4">Company</h6>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">About Nike</a></li>
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">News</a></li>
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">Careers</a></li>
+                    <li class="mb-3"><a href="#" class="text-secondary text-decoration-none">Investors</a></li>
+                    <li><a href="#" class="text-secondary text-decoration-none">Sustainability</a></li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-lg-3 d-flex justify-content-lg-end align-items-start">
+                <button id="countryBtn" class="btn btn-link text-secondary text-decoration-none p-0">
+                    ◉ Canada
+                </button>
+            </div>
+        </div>
+
+        <div class="border-top border-secondary opacity-50 mt-5 pt-4">
+            <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center gap-3 small">
+                <div class="text-white">© 2026 Nike, Inc. All rights reserved.</div>
+                <div class="d-flex flex-wrap gap-4">
+                    <a href="#" class="text-secondary text-decoration-none">Terms of Use</a>
+                    <a href="#" class="text-secondary text-decoration-none">Terms of Sale</a>
+                    <a href="#" class="text-secondary text-decoration-none">Company Details</a>
+                    <a href="#" class="text-secondary text-decoration-none">Privacy &amp; Cookie Policy</a>
+                    <a href="#" class="text-secondary text-decoration-none">Privacy &amp; Cookie Settings</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
