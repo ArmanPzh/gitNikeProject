@@ -60,3 +60,7 @@
 .infoAccrdion{
   border:#6c757d !important;
 }
+/************************************************************************************ footer */
+.container a:hover{
+  color: white !important;
+}
