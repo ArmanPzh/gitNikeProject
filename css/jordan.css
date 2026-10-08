@@ -27,3 +27,36 @@
   left: auto !important;
   right: 70px !important;
 }
+/***************************************************************************** section category */
+.accordion-item {
+    background-color: #212529;
+    border: none !important;
+}
+.accordion-button {
+    background-color: #212529 !important;
+    color: #fff !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.accordion-button::after {
+    display: none !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #212529 !important;
+    color: #fff !important;
+}
+.accordion-body {
+    background-color: #212529;
+    color: #fff;
+    border: none;
+}
+.accordion-body a {
+    color: #fff;
+    text-decoration: none;
+}
+.hoverLink a:hover{
+  color: white !important;
+}
+.infoAccrdion{
+  border:#6c757d !important;
+}
