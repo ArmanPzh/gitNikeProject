@@ -4,6 +4,35 @@
   box-sizing: border-box;
   font-family:Arial, Helvetica, sans-serif;
 }
+/******************************************************************************* jordan header */
+.main-header.hidden{
+  display: none;
+}
+.jordan-nav.scrolled .nav-content{
+  width: 100%;
+}
+.jordan-nav.scrolled .jordan-logo{
+  margin-right: 0;
+}
+.jordan-nav.scrolled{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030;
+}
+.jordan-logo img{
+  transition: all 0.3 ease;
+}
+.jordan-logo img.small-logo{
+width: 70px;
+height: 50px;
+object-fit: contain;
+}
+.jordan-nav.scrolled .jordan-menu{
+  flex-wrap: nowrap;
+}
+/*********************************************************************************** slider */
 .banner{
     height: auto;
     width: 96%;
@@ -60,7 +89,7 @@
 .infoAccrdion{
   border:#6c757d !important;
 }
-/************************************************************************************ footer */
+/********************************************************************************* footer */
 .container a:hover{
   color: white !important;
 }
