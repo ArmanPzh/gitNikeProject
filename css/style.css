@@ -20,6 +20,13 @@ a {
   display: none;
 }
 
+#oregon-ducks {
+  height: 70svh !important;
+  img {
+    object-fit: cover;
+  }
+}
+
 @media (max-width: 600px) {
   #hero { height: 100svh; }
   #hero > img { height: 100%; }
