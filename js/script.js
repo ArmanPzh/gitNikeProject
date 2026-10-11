@@ -1,3 +1,18 @@
+const mobileNavToggle = document.getElementById("mobile-nav-toggle");
+const mobileNav = document.getElementById("mobile-nav");
+
+if (mobileNavToggle && mobileNav) {
+    mobileNavToggle.addEventListener("click", () => {
+        mobileNav.hidden = !mobileNav.hidden;
+    });
+
+    mobileNav.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+            mobileNav.hidden = true;
+        });
+    });
+}
+
 const shopBtn = document.getElementById("shopBtn");
 const secondShopBtn = document.getElementById("secondShopBtn");
 const watchBtn = document.getElementById("watchBtn");

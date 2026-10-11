@@ -1,3 +1,25 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  text-decoration: none !important;
+}
+a {
+  color: rgba(0, 0, 0, .6)
+}
+
+.mobile-nav-toggle {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.mobile-nav-panel {
+  min-width: 12rem;
+}
+.mobile-nav-panel[hidden] {
+  display: none;
+}
+
 @media (max-width: 600px) {
   #hero { height: 100svh; }
   #hero > img { height: 100%; }
